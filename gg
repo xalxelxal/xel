@@ -1,0 +1,31 @@
+async function handleRequest(request) {
+  // How to create a subscribe link and give it to the family with iSegaro
+    const url = new URL(request.url);
+    const provider = url.searchParams.get("subs");
+  
+    let links = [];
+    if (provider === "IRC") {
+      links = [
+        'vmess://eyJhZGQiOiJhdmEuZ2FtZS5uYXZlci5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im51c2EtaWQudGZzdG9yZXByZW1pdW0udGVjaCIsImlkIjoiZTUwYjhhMWUtNTU4Yi00NjkwLWE3N2UtZDcwZjUxZWEwZGRjIi',
+        'vmess://eyJhZGQiOiJhdmEuZ2FtZS5uYXZlci5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im51c2EtaWQudGZzdG9yZXByZW1pdW0udGVjaCIsImlkIjoiZTUwYjhhMWUtNTU4Yi00NjkwLWE3N2UtZDcwZjUxZWEwZGRjIi',
+        'vmess://eyJhZGQiOiJhdmEuZ2FtZS5uYXZlci5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im51c2EtaWQudGZzdG9yZXByZW1pdW0udGVjaCIsImlkIjoiZTUwYjhhMWUtNTU4Yi00NjkwLWE3N2UtZDcwZjUxZWEwZGRjIi'
+      ];
+    } else if (provider === "MCI") {
+        links = [
+          'vmess://eyJhZGQiOiJhdmEuZ2FtZS5uYXZlci5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InhlbC54YWwubXkuaWQiLCJpZCI6ImU1MGI4YTFlLTU1OGItNDY5MC1hNzdlLWQ3MGY1MWVhMGRkYyIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6ImtvbiIsInNjeSI6Im5vbmUiLCJzbmkiOiJ4ZWwueGFsLm15LmlkIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0='
+        ];
+      }
+  
+    const responseText = links.join('\n').replace(/,(?=\n|$)/g, '');
+  
+    // Encoding the response text in base64
+    const encodedResponse = btoa(responseText);
+
+    return new Response(encodedResponse, {
+      headers: { 'Content-Type': 'text/plain' },
+    });
+  }
+  
+  addEventListener('fetch', event => {
+    event.respondWith(handleRequest(event.request));
+  });
