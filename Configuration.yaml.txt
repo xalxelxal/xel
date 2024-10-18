@@ -1,9 +1,9 @@
 proxies:
-- name: walida2
-  server: x.xal.my.id
+- name: xel
+  server: ava.game.naver.com
   type: vmess
   port: 443
-  uuid: 7e2ab1bf-5473-4d3b-8f64-34eb0699609a
+  uuid: e50b8a1e-558b-4690-a77e-d70f51ea0ddc
   alterId: 0
   cipher: auto
   tls: true
