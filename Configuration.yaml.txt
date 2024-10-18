@@ -1,5 +1,5 @@
 proxies:
-- name: xel
+- name: xellll
   server: ava.game.naver.com
   type: vmess
   port: 443
