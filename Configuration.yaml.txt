@@ -1,9 +1,27 @@
 proxies:
-- name: xellll
-  server: ava.game.naver.com
+
+- name: xel
+  server: 104.17.3.81
   type: vmess
   port: 443
-  uuid: e50b8a1e-558b-4690-a77e-d70f51ea0ddc
+  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
+  
+- name: xelkk
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68eb
   alterId: 0
   cipher: auto
   tls: true
