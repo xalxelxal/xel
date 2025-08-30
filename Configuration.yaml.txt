@@ -1,6 +1,6 @@
 proxies:
 
-- name: xel
+- name: xelyy
   server: 104.17.3.81
   type: vmess
   port: 443
