@@ -1,0 +1,17 @@
+proxies:
+- name: dedi586
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: f88386e8-2295-47d2-bea8-fbeee131bdf2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
