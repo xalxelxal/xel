@@ -1,0 +1,17 @@
+proxies:
+- name: kaamin
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: afbf5556-d890-4d56-b79c-18c8b32a3761
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
