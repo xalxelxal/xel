@@ -1,0 +1,17 @@
+proxies:
+- name: masfi588
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 275e7269-05e4-4049-a3bf-28bf2eed2bd2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
