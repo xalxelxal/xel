@@ -1,0 +1,17 @@
+proxies:
+- name: amak
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 64165173-342b-497a-8f33-ee1b66f8d218
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
