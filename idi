@@ -1,0 +1,17 @@
+proxies:
+- name: idi
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: e649674b-fb16-4d62-aff6-9017f3120308
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
