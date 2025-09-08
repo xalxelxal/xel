@@ -1,0 +1,17 @@
+proxies:
+- name: adkmomo
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
