@@ -1,0 +1,17 @@
+proxies:
+- name: obeq
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 680f0b96-bb71-460b-8fa6-172788dbb7c3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
