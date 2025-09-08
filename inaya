@@ -1,0 +1,17 @@
+proxies:
+- name: inaya
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 6f50a769-9c9c-48ae-bbf1-d5737cf39291
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
