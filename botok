@@ -1,0 +1,17 @@
+proxies:
+- name: botok
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: eb1b6b68-6f32-47a1-9066-11827d715a90
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
