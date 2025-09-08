@@ -1,0 +1,17 @@
+proxies:
+- name: beng
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: b189a99e-27c8-43f7-b50d-e33c99aa92b3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
