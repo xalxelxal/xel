@@ -1,0 +1,17 @@
+proxies:
+- name: kaang
+  server: quiz.staging.vidio.com
+  type: vmess
+  port: 443
+  uuid: 02cf632f-2dd9-4f39-84ea-c42e72c7647d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
