@@ -1,16 +1,15 @@
 proxies:
 
-- name: 🇸🇬 SG3
-  server: quiz.int.vidio.com
-  type: vless
+- name: 🇸🇬 SG2
+  server: quiz.staging.vidio.com
   port: 443
-  uuid: 7013bf02-752e-4a14-a9c4-f7dba4fb3f6e
-  tls: true
+  type: trojan
+  password: 2180cacb
   skip-cert-verify: true
-  servername: joss.krikkrik.tech
+  sni: joss.krikkrik.tech
   network: ws
   ws-opts:
-    path: /Free-VPN-CF-Geo-Project/SG3
+    path: /Free-VPN-CF-Geo-Project/SG2
     headers:
       Host: joss.krikkrik.tech
   udp: true
