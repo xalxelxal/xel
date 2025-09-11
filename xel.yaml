@@ -1,20 +1,18 @@
 proxies:
 
-- name: xelyy
-  server: 104.17.3.81
-  type: vmess
+- name: 🇸🇬 SG3
+  server: quiz.int.vidio.com
+  type: vless
   port: 443
-  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68eb
-  alterId: 0
-  cipher: auto
+  uuid: 7013bf02-752e-4a14-a9c4-f7dba4fb3f6e
   tls: true
   skip-cert-verify: true
-  servername: xel.xal.my.id
+  servername: joss.krikkrik.tech
   network: ws
   ws-opts:
-    path: /vmess
+    path: /Free-VPN-CF-Geo-Project/SG3
     headers:
-      Host: xel.xal.my.id
+      Host: joss.krikkrik.tech
   udp: true
   
 - name: xelkk
