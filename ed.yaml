@@ -1,6 +1,6 @@
 proxies:
 - name: ed
-  server: quiz.staging.vidio.com
+  server: 104.17.3.81
   type: vmess
   port: 443
   uuid: ad49bba9-c1e8-44e7-8a81-df3886df5563
