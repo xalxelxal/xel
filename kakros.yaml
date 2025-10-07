@@ -1,6 +1,6 @@
 proxies:
 - name: kakros
-  server: quiz.staging.vidio.com
+  server: 104.17.3.81
   type: vmess
   port: 443
   uuid: 0a1b25cf-4d4a-40fd-800c-5bd78776e1c3
