@@ -1,6 +1,6 @@
 proxies:
 - name: dedi819
-  server: quiz.staging.vidio.com
+  server: 104.17.3.81
   type: vmess
   port: 443
   uuid: f26a31aa-c769-4249-b0d0-f79a12b90874
