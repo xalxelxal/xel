@@ -1,6 +1,6 @@
 proxies:
 - name: ron
-  server: quiz.staging.vidio.com
+  server: 104.17.3.81
   type: vmess
   port: 443
   uuid: d406b597-b391-4d46-9e62-531aea6ec738
