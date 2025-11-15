@@ -1,9 +1,9 @@
 proxies:
-- name: alifa
+- name: ron
   server: quiz.staging.vidio.com
   type: vmess
   port: 443
-  uuid: 9b874f09-0a08-4d7f-9fed-8dc2be8d191e
+  uuid: d406b597-b391-4d46-9e62-531aea6ec738
   alterId: 0
   cipher: auto
   tls: true
