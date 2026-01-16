@@ -20,7 +20,7 @@ proxies:
 - name: id🇲🇨
   server: api24-normal.tiktokv.com
   port: 443
-  type: trojan
+  type: vmess
   password: 4f537efd-0014-45c9-aecd-da8a158d4876
   skip-cert-verify: true
   sni: v3.lifetime60.workers.dev
