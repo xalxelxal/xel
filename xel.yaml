@@ -19,7 +19,7 @@ proxies:
 
 - name: id🇲🇨
   server: api24-normal.tiktokv.com
-  port: 7443
+  port: 443
   type: trojan
   password: 4f537efd-0014-45c9-aecd-da8a158d4876
   skip-cert-verify: true
@@ -31,7 +31,7 @@ proxies:
       Host: v3.lifetime60.workers.dev
   udp: true
 
-- name: idd2🇲🇨
+- name: id2🇲🇨
   server: api24-normal.tiktokv.com
   type: vless
   port: 443
