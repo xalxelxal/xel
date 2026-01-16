@@ -19,7 +19,7 @@ proxies:
 
 - name: id🇲🇨
   server: api24-normal.tiktokv.com
-  port: 8443
+  port: 443
   type: trojan
   password: 4f537efd-0014-45c9-aecd-da8a158d4876
   skip-cert-verify: true
