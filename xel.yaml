@@ -17,17 +17,4 @@ proxies:
       Host: xel.xal.my.id
   udp: true
   
-- name: idd2🇲🇨
-  server: api24-normal.tiktokv.com
-  type: vmess
-  port: 443
-  uuid: 29a137be-7250-4ebf-96e7-9b5ee3fcc79a
-  tls: true
-  skip-cert-verify: true
-  servername: v3.lifetime60.workers.dev
-  network: ws
-  ws-opts:
-    path: /36.95.152.58-12137
-    headers:
-      Host: v3.lifetime60.workers.dev
-  udp: true
+
