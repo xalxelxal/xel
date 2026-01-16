@@ -33,7 +33,7 @@ proxies:
 
 - name: idd2🇲🇨
   server: api24-normal.tiktokv.com
-  type: vless
+  type: vmess
   port: 443
   uuid: 29a137be-7250-4ebf-96e7-9b5ee3fcc79a
   tls: true
