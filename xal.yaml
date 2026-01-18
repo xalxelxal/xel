@@ -1,0 +1,48 @@
+proxies:
+
+- name: sg🇸🇬
+  server: 104.17.3.81
+  type: vmess
+  port: 443
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: xel.xal.my.id
+  udp: true
+
+- name: id🇲🇨
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 4f537efd-0014-45c9-aecd-da8a158d4876
+  skip-cert-verify: true
+  sni: v3.lifetime60.workers.dev
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-443
+    headers:
+      Host: v3.lifetime60.workers.dev
+  udp: true
+
+- name: id2🇲🇨
+  server: 104.17.3.81
+  type: vless
+  port: 443
+  uuid: 29a137be-7250-4ebf-96e7-9b5ee3fcc79a
+  tls: true
+  skip-cert-verify: true
+  servername: v3.lifetime60.workers.dev
+  network: ws
+  ws-opts:
+    path: /36.95.152.58-12137
+    headers:
+      Host: v3.lifetime60.workers.dev
+  udp: true
+
