@@ -4,7 +4,7 @@ proxies:
   server: api24-normal.tiktokv.com
   type: vmess
   port: 443
-  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
+  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68eb
   alterId: 0
   cipher: auto
   tls: true
