@@ -4,7 +4,7 @@ proxies:
   server: api24-normal.tiktokv.com
   type: vmess
   port: 443
-  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68eb
+  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68e
   alterId: 0
   cipher: auto
   tls: true
@@ -21,7 +21,7 @@ proxies:
   server: api24-normal.tiktokv.com
   type: vless
   port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   tls: true
   skip-cert-verify: true
   servername: api24-normal-alisg.tiktokv.com.aio.mediafairy.us.ci
