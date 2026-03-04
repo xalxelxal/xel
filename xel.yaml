@@ -17,7 +17,7 @@ proxies:
       Host: xel.xal.my.id
   udp: true
 
-- name: Lightnode Limited 🇮🇩
+- name: Lightnode Limited 
   server: api24-normal.tiktokv.com
   type: vless
   port: 443
