@@ -1,7 +1,7 @@
 proxies:
 
 - name: sg🇸🇬
-  server: api24-normal.tiktokv.com
+  server: 104.17.3.81
   type: vmess
   port: 443
   uuid: 864e0a62-7e4d-4597-b0aa-058f870e68e
@@ -18,7 +18,7 @@ proxies:
   udp: true
 
 - name: Lightnode Limited 
-  server: api24-normal.tiktokv.com
+  server: 104.17.3.81
   type: vless
   port: 443
   uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
@@ -30,4 +30,19 @@ proxies:
     path: /156.244.1.250-8443
     headers:
       Host: api24-normal-alisg.tiktokv.com.aio.mediafairy.us.ci
+  udp: true
+
+- name: id
+  server: 104.17.3.81
+  type: vless
+  port: 443
+  uuid: 367fdf80-d758-4920-810f-edda2978b929
+  tls: true
+  skip-cert-verify: true
+  servername: xelll.flasiaf4.workers.dev
+  network: ws
+  ws-opts:
+    path: /146.59.232.210=8443
+    headers:
+      Host: xelll.flasiaf4.workers.dev
   udp: true
