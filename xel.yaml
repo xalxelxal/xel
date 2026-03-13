@@ -1,18 +1,16 @@
 proxies:
 
-- name: sg🇸🇬
+- name: sg
   server: 104.17.3.81
-  type: vmess
+  type: vless
   port: 443
-  uuid: 864e0a62-7e4d-4597-b0aa-058f870e68eb
-  alterId: 0
-  cipher: auto
+  uuid: 78973357-91a3-4c2f-8613-babb56741465
   tls: true
   skip-cert-verify: true
   servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vless
     headers:
       Host: xel.xal.my.id
   udp: true
