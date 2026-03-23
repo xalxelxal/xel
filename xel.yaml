@@ -15,19 +15,19 @@ proxies:
       Host: xel.xal.my.id
   udp: true
 
-- name: Lightnode Limited 
-  server: 104.17.3.81
+- name: sg tiktok
+  server: api24-normal.tiktokv.com
   type: vless
   port: 443
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 78973357-91a3-4c2f-8613-babb56741465
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.aio.mediafairy.us.ci
+  servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /156.244.1.250-8443
+    path: /vless
     headers:
-      Host: api24-normal-alisg.tiktokv.com.aio.mediafairy.us.ci
+      Host: xel.xal.my.id
   udp: true
 
 - name: id
@@ -44,3 +44,19 @@ proxies:
     headers:
       Host: xelll.flasiaf4.workers.dev
   udp: true
+
+- name: id tiktok
+  server: api24-normal.tiktokv.com
+  type: vless
+  port: 443
+  uuid: 367fdf80-d758-4920-810f-edda2978b929
+  tls: true
+  skip-cert-verify: true
+  servername: xelll.flasiaf4.workers.dev
+  network: ws
+  ws-opts:
+    path: /146.59.232.210=8443
+    headers:
+      Host: xelll.flasiaf4.workers.dev
+  udp: true
+  
