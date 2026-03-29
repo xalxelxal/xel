@@ -1,7 +1,52 @@
 proxies:
 
-- name: sg
+- name: sg edu
   server: 104.17.3.81
+  type: vless
+  port: 443
+  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: xel.xal.my.id
+  udp: true
+
+- name: sg fb
+  server: investor.fb.com
+  type: vless
+  port: 443
+  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: xel.xal.my.id
+  udp: true
+
+- name: sg ff
+  server: bcmsuporte.garena.com
+  type: vless
+  port: 443
+  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  tls: true
+  skip-cert-verify: true
+  servername: xel.xal.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: xel.xal.my.id
+  udp: true
+
+- name: sg wa
+  server: 104.18.1.196
   type: vless
   port: 443
   uuid: 78973357-91a3-4c2f-8613-babb56741465
@@ -30,8 +75,53 @@ proxies:
       Host: xel.xal.my.id
   udp: true
 
-- name: id
+- name: id edu
   server: 104.17.3.81
+  type: vless
+  port: 443
+  uuid: 367fdf80-d758-4920-810f-edda2978b929
+  tls: true
+  skip-cert-verify: true
+  servername: xelll.flasiaf4.workers.dev
+  network: ws
+  ws-opts:
+    path: /146.59.232.210=8443
+    headers:
+      Host: xelll.flasiaf4.workers.dev
+  udp: true
+
+- name: id fb
+  server: investor.fb.com
+  type: vless
+  port: 443
+  uuid: 367fdf80-d758-4920-810f-edda2978b929
+  tls: true
+  skip-cert-verify: true
+  servername: xelll.flasiaf4.workers.dev
+  network: ws
+  ws-opts:
+    path: /146.59.232.210=8443
+    headers:
+      Host: xelll.flasiaf4.workers.dev
+  udp: true
+
+- name: id ff
+  server: bcmsuporte.garena.com
+  type: vless
+  port: 443
+  uuid: 367fdf80-d758-4920-810f-edda2978b929
+  tls: true
+  skip-cert-verify: true
+  servername: xelll.flasiaf4.workers.dev
+  network: ws
+  ws-opts:
+    path: /146.59.232.210=8443
+    headers:
+      Host: xelll.flasiaf4.workers.dev
+  udp: true
+
+- name: id wa
+  server: 104.18.1.196
   type: vless
   port: 443
   uuid: 367fdf80-d758-4920-810f-edda2978b929
