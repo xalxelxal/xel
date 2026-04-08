@@ -4,7 +4,7 @@ proxies:
   server: 104.17.3.81
   type: vless
   port: 443
-  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
   skip-cert-verify: true
   servername: xel.xal.my.id
@@ -19,7 +19,7 @@ proxies:
   server: investor.fb.com
   type: vless
   port: 443
-  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
   skip-cert-verify: true
   servername: xel.xal.my.id
@@ -34,7 +34,7 @@ proxies:
   server: bcmsuporte.garena.com
   type: vless
   port: 443
-  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
   skip-cert-verify: true
   servername: xel.xal.my.id
@@ -49,7 +49,7 @@ proxies:
   server: 104.18.1.196
   type: vless
   port: 443
-  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
   skip-cert-verify: true
   servername: xel.xal.my.id
@@ -64,7 +64,7 @@ proxies:
   server: api24-normal.tiktokv.com
   type: vless
   port: 443
-  uuid: 78973357-91a3-4c2f-8613-babb56741465
+  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
   skip-cert-verify: true
   servername: xel.xal.my.id
