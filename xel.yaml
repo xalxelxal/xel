@@ -2,7 +2,7 @@ proxies:
 
 - name: sg edu
   server: 104.17.3.81
-  type: vless
+  type: vmess
   port: 443
   uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
@@ -10,14 +10,14 @@ proxies:
   servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /vmess
     headers:
       Host: xel.xal.my.id
   udp: true
 
 - name: sg fb
   server: investor.fb.com
-  type: vless
+  type: vness
   port: 443
   uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
@@ -25,14 +25,14 @@ proxies:
   servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /vmess
     headers:
       Host: xel.xal.my.id
   udp: true
 
 - name: sg ff
   server: bcmsuporte.garena.com
-  type: vless
+  type: vmess
   port: 443
   uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
@@ -40,14 +40,14 @@ proxies:
   servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /vmess
     headers:
       Host: xel.xal.my.id
   udp: true
 
 - name: sg waa
   server: 104.18.1.196
-  type: vless
+  type: vmess
   port: 443
   uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
@@ -55,14 +55,14 @@ proxies:
   servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /vmess
     headers:
       Host: xel.xal.my.id
   udp: true
 
 - name: sg tiktok
   server: api24-normal.tiktokv.com
-  type: vless
+  type: vmess
   port: 443
   uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
   tls: true
@@ -70,7 +70,7 @@ proxies:
   servername: xel.xal.my.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /vmess
     headers:
       Host: xel.xal.my.id
   udp: true
