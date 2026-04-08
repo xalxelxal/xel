@@ -45,7 +45,7 @@ proxies:
       Host: xel.xal.my.id
   udp: true
 
-- name: sg wa
+- name: sg waa
   server: 104.18.1.196
   type: vless
   port: 443
