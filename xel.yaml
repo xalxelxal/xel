@@ -62,17 +62,16 @@ proxies:
 
 - name: sg tiktok
   server: api24-normal.tiktokv.com
-  type: vmess
   port: 443
-  uuid: 954b10ad-c344-48b9-9887-90bbbaf3f54d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: true
   skip-cert-verify: true
-  servername: xel.xal.my.id
+  servername: sni.111000.dynv6.net
   network: ws
   ws-opts:
-    path: /vmess
+    path: /?Telegram🇨🇳@WangCai2
     headers:
-      Host: xel.xal.my.id
+      Host: sni.111000.dynv6.net
   udp: true
 
 - name: id edu
