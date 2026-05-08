@@ -60,8 +60,9 @@ proxies:
       Host: xel.xal.my.id
   udp: true
 
-- name: sg tiktok
+- name: SG tt
   server: api24-normal.tiktokv.com
+  type: vless
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: true
