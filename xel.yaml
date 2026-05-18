@@ -79,15 +79,15 @@ proxies:
   server: 104.17.3.81
   type: vless
   port: 443
-  uuid: 367fdf80-d758-4920-810f-edda2978b929
+  uuid: aa5d95fe-6c66-47bc-9b34-f71d535a71a8
   tls: true
   skip-cert-verify: true
-  servername: xelll.flasiaf4.workers.dev
+  servername: cyylr.eu.cc
   network: ws
   ws-opts:
-    path: /146.59.232.210=8443
+    path: /id-tksi
     headers:
-      Host: xelll.flasiaf4.workers.dev
+      Host: cyylr.eu.cc
   udp: true
 
 - name: id fb
