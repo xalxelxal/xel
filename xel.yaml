@@ -75,7 +75,7 @@ proxies:
       Host: sni.111000.dynv6.net
   udp: true
 
-- name: id edu
+- name: id eduu
   server: 104.17.3.81
   type: vless
   port: 443
