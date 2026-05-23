@@ -90,6 +90,21 @@ proxies:
       Host: cyylr.eu.cc
   udp: true
 
+- name: id2 edu
+  server: 104.17.3.81
+  type: vless
+  port: 443
+  uuid: aa5d95fe-6c66-47bc-9b34-f71d535a71a8
+  tls: true
+  skip-cert-verify: true
+  servername: cyylr.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-tksi
+    headers:
+      Host: cyylr.eu.cc
+  udp: true
+  
 - name: id fb
   server: investor.fb.com
   type: vless
