@@ -15,19 +15,19 @@ proxies:
       Host: xel.xal.my.id
   udp: true
 
-- name: SG CF
+- name: sg cf
   server: 104.17.3.81
   type: vless
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 1bff965f-42b9-4e6e-ab34-511848057d0d
   tls: true
   skip-cert-verify: true
-  servername: sni.111000.dynv6.net
+  servername: df.infra.test.shopee.co.id.cyylr.eu.cc
   network: ws
   ws-opts:
-    path: /?Telegram🇨🇳@WangCai2
+    path: /sg-do
     headers:
-      Host: sni.111000.dynv6.net
+      Host: df.infra.test.shopee.co.id.cyylr.eu.cc
   udp: true
 
 - name: sg ff
