@@ -79,15 +79,15 @@ proxies:
   server: 104.17.3.81
   type: vless
   port: 443
-  uuid: aa5d95fe-6c66-47bc-9b34-f71d535a71a8
+  uuid: 6e5079aa-500d-41be-95fe-a86ecd7fae67
   tls: true
   skip-cert-verify: true
-  servername: cyylr.eu.cc
+  servername: m.udemy.com.cyylr.eu.cc
   network: ws
   ws-opts:
-    path: /id-tksi
+    path: /id-pusat
     headers:
-      Host: cyylr.eu.cc
+      Host: m.udemy.com.cyylr.eu.cc
   udp: true
 
 - name: id2 edu
