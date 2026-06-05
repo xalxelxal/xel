@@ -106,7 +106,7 @@ proxies:
   udp: true
   
 - name: id fb
-  server: investor.fb.com
+  server: 104.17.3.81
   type: vless
   port: 443
   uuid: 367fdf80-d758-4920-810f-edda2978b929
