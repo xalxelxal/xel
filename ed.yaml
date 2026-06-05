@@ -1,4 +1,4 @@
-- name: id x
+- name: id x 
   server: 104.17.3.81
   type: vless
   port: 443
