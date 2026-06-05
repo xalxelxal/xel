@@ -1,17 +1,29 @@
-proxies:
-- name: ed
+- name: id x
   server: 104.17.3.81
-  type: vmess
+  type: vless
   port: 443
-  uuid: ad49bba9-c1e8-44e7-8a81-df3886df5563
-  alterId: 0
-  cipher: auto
+  uuid: 18e1db04-8c5c-4086-9451-868fbee26cc2
   tls: true
   skip-cert-verify: true
-  servername: xel.xal.my.id
+  servername: aizen.xalxelxal.workers.dev
   network: ws
   ws-opts:
-    path: /vmess
+    path: /103.6.207.108-8080
     headers:
-      Host: xel.xal.my.id
+      Host: aizen.xalxelxal.workers.dev
+  udp: true
+
+- name: id
+  server: 104.17.3.81
+  type: vless
+  port: 443
+  uuid: 4772ced7-a203-49be-9094-8a4cd3ae52f6
+  tls: true
+  skip-cert-verify: true
+  servername: xelll.flasiaf4.workers.dev
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-443
+    headers:
+      Host: xelll.flasiaf4.workers.dev
   udp: true
